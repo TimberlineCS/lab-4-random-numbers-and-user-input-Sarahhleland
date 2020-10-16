@@ -17,6 +17,21 @@ Type a postive number that is greater than 5: 50
 You got a -4 and a 36
 
 ```
+public class random {
+class GenerateRandomid main( String args[] ) {
+      int min = -50;
+      int max = 50;
+      System.out.print {
+    public static voln("Random value in double from "+min+" to "+max+ ":");
+      double random_double = Math.random() * (max - min + 1) + min; 
+      System.out.println(random_double);
+        
+      System.out.println("Random value in int from "+min+" to "+max+ ":");
+      int random_int = (int)(Math.random() * (max - min + 1) + min);
+      System.out.println(random_int);
+    }
+  }  
+}
 
 ## Code Challenge 2
 
@@ -27,5 +42,24 @@ You got a -4 and a 36
 - [ ] **After** you have collected all the information, your program must incorporate the user's input into a story.  One of the fields in the story should also include the result of a calculation.  
 
 - [ ] The story should be printed to the console using 1 print statement
+
+
+public class madLib;{
+public static void main(String[] args) {
+System.out.print("Enter place: ");
+String place = keyboardInput.nextLine();
+
+System.out.print("Enter noun: ");
+String noun = keyboardInput.nextLine();
+
+System.out.print("Enter family member: ");
+String familyMember = keyboardInput.nextLine();
+
+System.out.println("I like to go to " + place);
+System.out.println(" When I go I bring my" + noun);
+System.out.println(familyMember +"loves to go with me");
+}
+}
+
 
 
